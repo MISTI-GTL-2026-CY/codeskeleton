@@ -42,7 +42,7 @@ Here are relevent git commands interact with the repo and make/receive updates:
 - To put your own changes into the repo:
     - ```git add .``` to stage all files changed
     - ```git status``` to check which files are going to be sent to the repo
-    - ```git commit -m "[INFORMATIVE MESSAGE]" to explain what you're going send
+    - ```git commit -m "[INFORMATIVE MESSAGE]"``` to explain what you're going send
     - ```git push``` to finally send everything
 - Be careful with merge conflict if multiple people work on the same file and try to push conflicting things. These may have to be manually resolved - it's annoying to handle!
 
