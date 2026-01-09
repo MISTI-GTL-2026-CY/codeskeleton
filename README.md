@@ -43,8 +43,6 @@ src                   ← ROS workspace
 
 
 
-*Do see cheat sheet as well for more commands
-
 ### Here are the steps to run things:
 1. Zip your project:
     1. Window: use GUI
@@ -75,3 +73,8 @@ src                   ← ROS workspace
         8. To run:
             1. With non-MacOS or without joystick on MacOS, use this format: ```ros2 run package node``` or ```ros2 launch launchPackage launch.xml```
             2. With joystick on MacOS, use the MacOS joystick guide we have provided
+          
+
+        
+          
+*Do see cheat sheet as well for more commands
