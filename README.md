@@ -15,7 +15,7 @@ src                   ← ROS workspace
 ```
 
 
-This is a template repo so the steps are a bit different. You can copy and clone it as follows:
+### This is a template repo so the steps are a bit different. You can copy and clone it as follows:
 - One person per team do this (they will be the owner of the repo):
   - In Github web, click the green ``Use this template" button and then click ``Create a new repository".
   - Have the owner be yourself (you personal github account) and name the repository ``MIT GTL Project"
@@ -32,12 +32,12 @@ This is a template repo so the steps are a bit different. You can copy and clone
   - In terminal, do ``` git clone [INSERT LINK] ```
 
 
-Here are the steps to run things:
+### Here are the steps to run things:
 - fill
 -
 
 
-Here are relevent git commands interact with the repo and make/receive updates:
+### Here are relevent git commands interact with the repo and make/receive updates:
 - ```git pull``` to get latest changes on main branch 
 - To put your own changes into the repo:
     - ```git add .``` to stage all files changed
