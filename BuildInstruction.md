@@ -14,15 +14,12 @@
 5. On the server:
     1. Create a directory for your project `mkdir -p project`
     2. Unzip the archive `unzip -d project project.zip` (replace all files if you're asked)
-    3. Run ros2 docker container ```docker run -it --network=host -v ./project:/workspace -v /dev/shm:/dev/shm ros:humble```
+    3. Run ros2 docker container ```docker run -it --network=host -v ~/project:/workspace -v /dev/shm:/dev/shm ros:humble```
     4. In the container:
         1. Go to workspace directory: `cd /workspace`
         2. Build the project: `colcon build`
-        3. Create a new shell: `bash`
-        4. Source the environment: `source ./install/setup.bash`
-        5. Set environment variables (according to your duckie)
+        3. Source the environment: `source ./install/setup.bash`
+        4. Set environment variables (according to your duckie)
             1. `export VEHICLE_NAME=duckie01`
             2.  `export USER_NAME=anyname`
-        6. To run:
-            1. With non-MacOS or without joystick on MacOS, use this format: ```ros2 run package node``` or ```ros2 launch launchPackage launch.xml```
-            2. With joystick on MacOS, use the MacOS joystick guide we have provided
+        5. To run, use this format: ```ros2 run package node``` or ```ros2 launch launchPackage launch.xml```
